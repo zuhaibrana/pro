@@ -59,5 +59,5 @@ save_data_task = PythonOperator(
     provide_context=True
 )
 
-# Define the task dependencies
+# Define the task dependenciess
 scrape_data_task >> save_data_task
